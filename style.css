@@ -1,0 +1,109 @@
+body
+{
+	background-color : #7b7b7b;
+	margin: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#cadre
+{
+	width: 450px;
+	height: 450px;
+	background-color : #F56FEB;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#cible1, #cible2, #cible3, #cible4, #cible5, #cible6
+{
+	width: 50px;
+	height: 50px;
+	background-color: #C0FFEE;
+	border-radius: 50%;
+	position: absolute;
+	cursor: pointer;
+	display: none;
+	transition: all linear 1.5s;
+}
+
+#cible2
+{
+	background-color:#95d8ff;
+}
+
+#cible3
+{
+	background-color:#FAFF87;
+}
+
+#cible4
+{
+	background-color:#FFB7E1;
+}
+
+#cible5
+{
+	background-color:#E5BAFC;
+}
+
+#cible6
+{
+	background-color:#FFBE93;
+}
+
+#score, #info
+{
+	width: 450px;
+	height: 40px;
+	background-color : white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 530px;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	border-radius: 50px;
+}
+
+#score {
+	box-shadow: inset 0 0 5px 5px #ffbe93;
+}
+
+#info {
+	top: -530px;	
+	background-color: #C0FFEE;
+	line-height: 2.5;
+	box-shadow: inset 0 0 5px 5px #95d8ff;
+}
+
+button {
+	border-radius: 100px;
+	height: 100px;
+	width: 100px;
+	padding: 2px;
+	box-shadow: inset 0 0 20px 3px #ffa367;
+	border: none;
+	background-color: #faff87;
+	margin-left: 10px;
+	cursor: pointer;
+	margin: 170px;
+	font-size: 1.2em;
+}
+
+button:hover {
+	box-shadow: inset 0 0 20px 10px #ffa367;
+	font-size: 1.8em;
+}
